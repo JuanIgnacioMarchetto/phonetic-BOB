@@ -1,13 +1,15 @@
-*{
+* {
     display: grid;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
-body{
+
+body {
     margin-top: 25%;
 }
+
 .btn {
     width: 80em;
     height: 80em;
@@ -19,81 +21,90 @@ body{
 
 .keyboard {
     display: grid;
-    grid-template-columns: 15% 15% 15%  ;
+    grid-template-columns: 15% 15% 15%;
     width: 80%;
     padding: 2em;
     justify-content: space-between;
     position: relative;
     margin-top: 80px;
-   
-    
+
+
 }
-.keyboard button{
+
+.keyboard button {
     width: 6em;
     height: 6em;
     margin: 1em;
 }
+
 .opcionales img {
     border-radius: 50%;
-    height: 100px;
+    height: 160px;
     display: grid;
     justify-content: space-between;
-    width: 100px;
+    width: 160px;
 
 
 }
-.opcionales2 button{
+
+.opcionales2 button {
     justify-content: space-between;
     background: none;
-    margin: 0.9em;
+    margin: 4em;
     border: none;
 }
-.opcionales button{
+
+.opcionales button {
     justify-content: space-between;
     background: none;
-    margin: 0.9em;
+    margin: 4em;
     border: none;
 }
+
 .opcionales2 img {
     border-radius: 50%;
-    height: 100px;
+    height: 160px;
     justify-content: space-between;
-    width: 100px;
+    width: 160px;
 
 }
-.opcionales{
+
+.opcionales {
     background: none;
     position: absolute;
-    left: 8%;
+    left: 2%;
     top: 20%;
     display: grid;
-grid-template-columns: 20% ;
-    padding: 1em;
+    grid-template-columns: 20%;
+    padding: 3em;
     justify-content: space-between;
-    margin-top: 1em;
+    margin-top: 3em;
     float: left;
-   }
-   .opcionales2{
-       
+}
+
+.opcionales2 {
+
     background: none;
-       position: absolute;
+    position: absolute;
     margin-left: 10%;
     display: grid;
-grid-template-columns: 20%  ;
-    padding: 1em;
+    grid-template-columns: 20%;
+    padding: 3em;
     justify-content: space-between;
     top: 20%;
-    right: 5%;
-    margin-top: 1em;
-   }
-.boton{
-    position: absolute ;
+    left: 55%;
+    margin-top: 3em;
+}
+
+.boton {
+    position: absolute;
     top: 5%;
     left: 10%;
     border: none;
     background: none;
 }
-.bobhabla{
+
+.bobhabla {
     position: absolute;
     top: 5%;
     left: 40%;
@@ -102,9 +113,9 @@ grid-template-columns: 20%  ;
     border-radius: 45%;
     padding: 3em;
 }
-.borrar{
+
+.borrar {
     padding: 2em;
     border-radius: 50%;
     border: double 5px rebeccapurple;
 }
-   
