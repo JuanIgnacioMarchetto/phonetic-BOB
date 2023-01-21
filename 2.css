@@ -1,0 +1,77 @@
+*{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    width: 60em;
+    height: 60em;
+    border: 5px solid green;
+    border-radius: 25%;
+    margin: 0.7em;
+    position: relative;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% ;
+    width: 80%;
+    padding: 2em;
+    justify-content: space-between;
+    position: relative;
+   
+    
+}
+.keyboard button{
+    width: 6em;
+    height: 6em;
+    margin: 1em;
+}
+.opcionales img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+
+
+}
+.opcionales2 button{
+    justify-content: space-between;
+    background: none;
+}
+.opcionales2 img {
+    border-radius: 50%;
+    height: 80px;
+    justify-content: space-between;
+    width: 80px;
+    margin: 0.2em;
+
+}
+.opcionales{
+    background: none;
+    position: absolute;
+    left: 8%;
+    top: 3%;
+    display: grid;
+grid-template-columns: 20% ;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: 1em;
+    float: left;
+   }
+   .opcionales2{
+       
+    background: none;
+       position: absolute;
+    margin-left: 10%;
+    display: grid;
+grid-template-columns: 20%  ;
+    padding: 1em;
+    justify-content: space-between;
+    top:3%;
+    right: 5%;
+    margin-top: 1em;
+   }
+
+   

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    height: min-content;
+    ;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(./6cd2e55aaa7b91156ffd2a03873eda35.jpg);
+
+}
+
+.btn {
+    width: 60em;
+    height: 60em;
+    border: 5px solid green;
+    border-radius: 25%;
+    margin: 0.7em;
+    position: relative;
+}
+
+.keyboard {
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    padding: 1em;
+    justify-content: space-between;
+    margin: 2em;
+    margin-left: 10%;
+}
+
+placeholder {}
+
+.bobhabla {
+    border-radius: 30%;
+    border: dotted 4px purple;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.borrar {
+    border-radius: 50%;
+    padding: 2em;
+    border: dotted 4px purple;
+    font-size: xx-large;
+    background-color: red;
+    color: blueviolet;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+}
+
+.opcionales {
+    grid-template-columns: repeat(45%);
+    padding: 1em;
+    margin: 2em;
+    border-radius: 50%;
+}
+
+.opcionales button {
+
+    border-radius: 50%;
+}
+
+.opcionales img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.keyboard {
+    margin-top: -15px;
+}
+
+.keyboard button {
+    width: 60px;
+    height: 60px;
+    border: 5px solid pink;
+    border-radius: 25%;
+    margin: 0.7em;
+    background: lightsalmon;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.borrar {
+    float: inline-end;
+}
+
+.boton img {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 30vw;
+    height: 28vh;
+}
+
+aside {
+    display: flex;
+    float: left;
+
+
+}
+
+.asidetow {
+    display: flex;
+    float: right;
+
+}
+
+.opcion {
+    position: absolute;
+    top: 49vh;
+    left: 5vw;
+    border: dotted darkorchid 8px;
+    margin-left: 10px;
+
+}
+
+.opcion0 {
+    position: absolute;
+    top: 59vh;
+    left: 13vw;
+    border: dotted darkorchid 8px;
+    margin-left: 10px;
+
+}
+
+.opcion1 {
+    border: dotted darkorchid 8px;
+    position: absolute;
+    top: 74vh;
+    left: 20vw;
+    margin-left: 10px;
+}
+
+.opcion2 {
+    border: dotted darkorchid 8px;
+    position: absolute;
+    top: 49vh;
+    right: 5vw;
+    margin-right: 10px;
+}
+
+.opcion3 {
+    position: absolute;
+    top: 59vh;
+    border: dotted darkorchid 8px;
+    right: 13vw;
+    margin-right: 10px;
+}
+
+.opcion4 {
+    border: dotted darkorchid 8px;
+    position: absolute;
+    top: 74vh;
+    right: 20vw;
+    margin-right: 10px;
+}
+
+@media (min-wid : 600px) {
+    
+}
