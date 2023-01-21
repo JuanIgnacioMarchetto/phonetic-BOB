@@ -4,6 +4,13 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html{
+    background: url(./6cd2e55aaa7b91156ffd2a03873eda35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
@@ -28,13 +35,16 @@ body {
     position: relative;
     margin-top: 80px;
 
-
 }
 
 .keyboard button {
     width: 6em;
     height: 6em;
     margin: 1em;
+    font-size: large;
+    border: double 3px lightgreen;
+    border-radius: 45%;
+    
 }
 
 .opcionales img {
@@ -72,7 +82,7 @@ body {
 .opcionales {
     background: none;
     position: absolute;
-    left: 2%;
+    left: 1%;
     top: 20%;
     display: grid;
     grid-template-columns: 20%;
@@ -92,14 +102,17 @@ body {
     padding: 3em;
     justify-content: space-between;
     top: 20%;
-    left: 55%;
+    left: 60%;
     margin-top: 3em;
 }
-
+.boton img{
+    width: 300px;
+    height: 300px;
+}
 .boton {
     position: absolute;
     top: 5%;
-    left: 10%;
+    left: 8%;
     border: none;
     background: none;
 }
@@ -107,15 +120,22 @@ body {
 .bobhabla {
     position: absolute;
     top: 5%;
-    left: 40%;
+    left: 35%;
+    padding: 1em;
     text-align: center;
     border: 3px double green;
     border-radius: 45%;
-    padding: 3em;
+    font-size: 30px;
 }
 
 .borrar {
+    align-items: center;
+    justify-content: center;
     padding: 2em;
     border-radius: 50%;
     border: double 5px rebeccapurple;
+    display: grid;
+    margin-top: 9px;
+    width: 200px;
+    height: 200px;
 }
