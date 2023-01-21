@@ -5,6 +5,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+body{
+    margin-top: 25%;
+}
 .btn {
     width: 60em;
     height: 60em;
@@ -21,6 +24,7 @@
     padding: 2em;
     justify-content: space-between;
     position: relative;
+    margin-top: 80px;
    
     
 }
@@ -32,6 +36,8 @@
 .opcionales img {
     border-radius: 50%;
     height: 80px;
+    display: grid;
+    justify-content: space-between;
     width: 80px;
 
 
@@ -39,20 +45,27 @@
 .opcionales2 button{
     justify-content: space-between;
     background: none;
+    margin: 0.9em;
+    border: none;
+}
+.opcionales button{
+    justify-content: space-between;
+    background: none;
+    margin: 0.9em;
+    border: none;
 }
 .opcionales2 img {
     border-radius: 50%;
     height: 80px;
     justify-content: space-between;
     width: 80px;
-    margin: 0.2em;
 
 }
 .opcionales{
     background: none;
     position: absolute;
     left: 8%;
-    top: 3%;
+    top: 10%;
     display: grid;
 grid-template-columns: 20% ;
     padding: 1em;
@@ -69,9 +82,28 @@ grid-template-columns: 20% ;
 grid-template-columns: 20%  ;
     padding: 1em;
     justify-content: space-between;
-    top:3%;
+    top: 10%;
     right: 5%;
     margin-top: 1em;
    }
-
+.boton{
+    position: absolute ;
+    top: 3%;
+    border: none;
+    background: none;
+}
+.bobhabla{
+    position: absolute;
+    top: 5%;
+    left: 44%;
+    text-align: center;
+    border: 3px double green;
+    border-radius: 45%;
+    padding: 3em;
+}
+.borrar{
+    padding: 2em;
+    border-radius: 50%;
+    border: double 5px rebeccapurple;
+}
    
