@@ -29,7 +29,7 @@ body {
 .keyboard {
     display: grid;
     grid-template-columns: 15% 15% 15%;
-    width: 80%;
+    width: 65%;
     padding: 2em;
     justify-content: space-between;
     position: relative;
