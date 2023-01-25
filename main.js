@@ -16,8 +16,9 @@ renderKeys();
 
 const keys = document.querySelectorAll("button");
 [...keys].forEach((key) => {
-  key.addEventListener("click", updateText);
+  key.addEventListener("click", updateText,);
 });
+
 const input = document.getElementById("input");
 
 function updateText() {
